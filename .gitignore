@@ -1,0 +1,4 @@
+.DS_Store
+repository/logs/*
+samples/
+repository/components/default/configuration/*.log

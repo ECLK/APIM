@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint xmlns="http://ws.apache.org/ns/synapse"
+          name="Nomination--v0.9_APIproductionEndpoint">
+   <http uri-template="http://localhost:9001/ec-election">
+      <timeout>
+         <responseAction>fault</responseAction>
+      </timeout>
+   </http>
+   <property name="ENDPOINT_ADDRESS" value="http://localhost:9001/ec-election"/>
+</endpoint>
