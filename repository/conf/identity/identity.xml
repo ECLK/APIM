@@ -399,6 +399,7 @@
             <PoolSize>0</PoolSize>
             <RetryCount>5</RetryCount>
         </TokenPersistence>
+     <HandleAlreadyLoggedOutSessionsGracefully>true</HandleAlreadyLoggedOutSessionsGracefully>
     </OAuth>
     <MultifactorAuthentication>
         <!--Enable>false</Enable-->
